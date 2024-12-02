@@ -1,0 +1,57 @@
+/* src/permissions/permissions.css */
+
+.permissions-container {
+    margin: 20px;
+  }
+  
+  .permissions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .permissions-table th,
+  .permissions-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .permissions-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .permissions-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .permissions-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .permission-form-container {
+    margin-top: 20px;
+  }
+  
+  .permission-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .permission-form-container label {
+    margin: 10px 0 5px;
+  }
+  
+  .permission-form-container input,
+  .permission-form-container textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .permission-form-container button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
